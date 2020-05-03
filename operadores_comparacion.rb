@@ -15,4 +15,4 @@ if edad >= "18"
     puts "El usuario es mayor de edad"
 end
 # tambien se puede tener comparadores en linea
-puts "Es mayor de edad" if edad >= 18
+puts "Es mayor de edad" if edad >= "18"
