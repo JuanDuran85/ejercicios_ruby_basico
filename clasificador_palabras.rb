@@ -1,6 +1,7 @@
 puts " --- Clasificando palabras segun la cantidad de caracteres ---"
 puts " Ingrese una palabra o texto cualquiera"
 palabra = gets.chomp
+
 if palabra.size <= 4
     puts("la palabra ingresada #{palabra} tiene #{palabra.size} letras, por lo tanto es corta")
 elsif palabra.size <= 10
@@ -10,3 +11,9 @@ elsif palabra.size >= 15
 else 
     puts("la palabra ingresada #{palabra} tiene #{palabra.size} letras, por lo tanto es larga")
 end 
+
+def h(texto)
+    puts ("La palabra ingresada fue #{texto}")
+end
+
+h(palabra)
