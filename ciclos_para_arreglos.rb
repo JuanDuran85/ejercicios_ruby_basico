@@ -41,3 +41,9 @@ puts "Ordenado alfabeticamente el arreglo #{arreglo} quedaria: #{arreglo.sort}"
 p "--------------------------"
 puts "El reverso del arreglo #{arreglo} quedaria: #{arreglo.reverse}"
 p "--------------------------"
+arreglo2 = %w(Pera Manzana Uva Manzana Pera Naranja Naranja)
+puts "Obteniendo elementos unicos del arreglo: #{arreglo2}"
+puts arreglo2.uniq
+puts "Ordenado: #{arreglo2.sort}"
+puts "Con reverso: #{arreglo2.reverse}"
+puts "Ordenado y con reverso: #{arreglo2.sort.reverse}"
