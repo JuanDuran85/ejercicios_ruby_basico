@@ -10,7 +10,7 @@ end
 puts "la suma del 1 al 100 es: #{total}"
 puts ""
 
-arreglo = [1,3,45,6,4,2,7,5,8,9]
+arreglo = (1..10).to_a # con ... no se incluye el ultimo numero
 p arreglo
 
 4.times do
