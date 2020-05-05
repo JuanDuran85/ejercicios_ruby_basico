@@ -33,3 +33,8 @@ puts ""
 puts "De mayor a menor por frecuencia de palabra encontrada"
 p orden2
 puts "----------------------------"
+
+orden2.each_with_index do |palabra,index|
+    puts "Numero       Palabra        Cantidad"
+    puts "#{index+1}            #{palabra[0]}          #{palabra[1]}"
+end
